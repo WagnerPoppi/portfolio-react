@@ -16,7 +16,7 @@ function App() {
 						<i class="fa fa-medium"></i>
 					</span>
 				</a>
-				<a href="https://github.com/PoppiJr" class="nav-item">
+				<a href="https://github.com/WagnerPoppi" class="nav-item">
 					<span class="icon">
 						<i class="fa fa-github"></i>
 					</span>
@@ -44,7 +44,7 @@ function App() {
 				
 		<section id="about" class="section section-1">
 			<div class="container has-text-centered">
-				<img class="avatar" src="src/img/profile.png"/>
+				<img class="avatar" src="src/img/profile.jpeg"/>
 			</div>
 			<div class="container">
 				<p class="intro">
@@ -65,7 +65,7 @@ function App() {
 							<article>
 								<div id = "img-project1">
 									<figure class="image project-figure">
-										<img src="src/img/logoREACT.png" alt="Image"/>
+										<img src="src/img/logoREACT.jpeg" alt="Image"/>
 									</figure>
 								</div>
 								<div>			
@@ -78,7 +78,7 @@ function App() {
 							<article>
 								<div id="img-project2">
 									<figure class="image project-figure">
-										<img src="src/img/logoJS.png" alt="Image"/>
+										<img src="src/img/logoJS.jpeg" alt="Image"/>
 									</figure>
 								</div>
 								<div>			
@@ -91,7 +91,7 @@ function App() {
 							<article>
 								<div id="img-project3">
 									<figure class="image project-figure">
-										<img src="src/img/logoHTML.png" alt="Image"/>
+										<img src="src/img/logoHTML.jpeg" alt="Image"/>
 									</figure>
 								</div>
 								<div>			
@@ -104,7 +104,7 @@ function App() {
 							<article>
 								<div id="img-project4">
 									<figure class="image project-figure">
-										<img src="src/img/logoCSS.png" alt="Image"/>
+										<img src="src/img/logoCSS.jpeg" alt="Image"/>
 									</figure>
 								</div>
 								<div>			

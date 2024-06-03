@@ -4,7 +4,11 @@ import './styles/components/app.sass';
 import './styles/components/header.sass';
 import './styles/components/skills.sass';
 import './styles/components/footer.sass';
-
+import Profile from "./img/profile.jpeg";
+import Project1 from "./img/logoREACT.jpeg";
+import Project2 from "./img/logoJS.jpeg";
+import Project3 from "./img/logoHTML.jpeg";
+import Project4 from "./img/logoCSS.jpeg";
 
 function App() {
   return (
@@ -44,7 +48,7 @@ function App() {
 				
 		<section id="about" class="section section-1">
 			<div class="container has-text-centered">
-				<img class="avatar" src="src/img/profile.jpeg"/>
+				<img class="avatar" src={Profile}/>
 			</div>
 			<div class="container">
 				<p class="intro">
@@ -65,7 +69,7 @@ function App() {
 							<article>
 								<div id = "img-project1">
 									<figure class="image project-figure">
-										<img src="src/img/logoREACT.jpeg" alt="Image"/>
+										<img src={Project1} alt="Image"/>
 									</figure>
 								</div>
 								<div>			
@@ -78,7 +82,7 @@ function App() {
 							<article>
 								<div id="img-project2">
 									<figure class="image project-figure">
-										<img src="src/img/logoJS.jpeg" alt="Image"/>
+										<img src={Project2} alt="Image"/>
 									</figure>
 								</div>
 								<div>			
@@ -91,7 +95,7 @@ function App() {
 							<article>
 								<div id="img-project3">
 									<figure class="image project-figure">
-										<img src="src/img/logoHTML.jpeg" alt="Image"/>
+										<img src={Project3} alt="Image"/>
 									</figure>
 								</div>
 								<div>			
@@ -104,7 +108,7 @@ function App() {
 							<article>
 								<div id="img-project4">
 									<figure class="image project-figure">
-										<img src="src/img/logoCSS.jpeg" alt="Image"/>
+										<img src={Project4} alt="Image"/>
 									</figure>
 								</div>
 								<div>			
